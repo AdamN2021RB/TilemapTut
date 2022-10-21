@@ -49,3 +49,5 @@ public class PlayerScript : MonoBehaviour
         }
     }
 }
+
+//if i see this, it worked!
