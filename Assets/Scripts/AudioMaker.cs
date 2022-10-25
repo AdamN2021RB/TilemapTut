@@ -5,13 +5,15 @@ using UnityEngine;
 public class AudioMaker : MonoBehaviour
 {
 
-     public AudioClip CoinGet;
+     public AudioClip BackgroundMusic;
 
     public AudioSource musicSource;
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+        musicSource.clip = BackgroundMusic;
+            musicSource.Play();
     }
+
+    //Found on OpenGameArt. Music created by "Zane Little Music"
 }
